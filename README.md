@@ -1,15 +1,3 @@
-# RAM Design Project - Vivado Guide
-
-This project involves designing a simple synchronous RAM module using Verilog, writing a testbench to simulate its functionality, and verifying the design in Xilinx Vivado.
-
-## 📁 Project Structure
-
-```
-RAM_Design_Project/
-├── ram_module.v         # Verilog RAM design file
-├── tb_ram_module.v      # Testbench for simulation
-├── README.md            # This file
-```
 
 ## 🔧 Step-by-Step Instructions
 
@@ -37,7 +25,16 @@ Testbench that:
 - Writes values to RAM at different addresses.
 - Reads back and displays the values.
 
+## 🖼️ RTL Schematic
+
+![RTL Schematic](images/rtl_schematic.png)
+
+## 🖥️ Simulation Output
+
+![Simulation Waveform](images/simulation_waveform.png)
+
 ## ✅ Deliverables
 - Verilog RAM code (`ram_module.v`)
 - Testbench (`tb_ram_module.v`)
 - Simulation showing functionality
+- Images showing RTL schematic and waveform output
